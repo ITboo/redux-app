@@ -1,8 +1,8 @@
 import React from 'react'
 
-const ProfilePage = () => {
+const ProfilePage = ({login}) => {
   return (
-    <div>ProfilePage</div>
+    <h1>Hello, {login}!</h1>
   )
 }
 
